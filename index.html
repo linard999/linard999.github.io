@@ -12,13 +12,23 @@
     <h2>Atividade Cifra de Vigenere</h2>
     
     <script src="post.js"></script>
-    <form onsubmit="enviarPalavra()">
+
+    <form onsubmit="enviarPalavraCodificada()">
         <label for="pcodificada">Palavra Codificada:</label><br>
         <input name="palavra codificada" type="text" id="pcodificada"><br>
-        <label for="pchave">Palavra Chave:</label><br>
-        <input name="chave" type="text" id="pchave"><br><br>
+        <label for="pchavecod">Palavra Chave:</label><br>
+        <input name="chave" type="text" id="pchavecod"><br><br>
 
         <button type="submit">Descriptar</button>
+    </form>
+
+    <form onsubmit="enviarPalavraDescodificada()">
+        <label for="pdescodificada">Palavra Descodificada:</label><br>
+        <input name="palavra descodificada" type="text" id="pdescodificada"><br>
+        <label for="pchavedescod">Palavra Chave:</label><br>
+        <input name="chave" type="text" id="pchavedescod"><br><br>
+
+        <button type="submit">Encriptar</button>
     </form>
 
 </body>
